@@ -1,4 +1,4 @@
-package com.edusmart.plataforma.entities;
+package com.edusmart.plataforma;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
