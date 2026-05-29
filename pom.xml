@@ -60,7 +60,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <dependency>
+        <groupId>dev.langchain4j</groupId>
+        <artifactId>langchain4j-open-ai-spring-boot-starter</artifactId>
+        <version>0.30.0</version>
+    </dependency>
     <build>
         <plugins>
             <plugin>
