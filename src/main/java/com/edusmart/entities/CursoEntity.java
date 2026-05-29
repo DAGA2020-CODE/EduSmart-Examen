@@ -1,4 +1,4 @@
-package com.edusmart.entities;
+package com.edusmart.plataforma.entities;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
@@ -20,7 +20,7 @@ public class CursoEntity {
     @Column(name = "horas_duracion")
     private Integer horas_duracion;
 
-    // Genera Getters y Setters (Alt + Insert en IntelliJ o click derecho -> Source Action)
+    // Getters y Setters
     public Long getId_curso() { return id_curso; }
     public void setId_curso(Long id_curso) { this.id_curso = id_curso; }
     public String getNombre_curso() { return nombre_curso; }
